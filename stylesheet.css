@@ -1,0 +1,25 @@
+.profilepic{
+	padding-left: 490;
+    padding-top: 50;
+}
+.netid{
+padding-left: 550;
+font: menu;	
+}
+h1{
+	color: #01579B;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-style: solid;
+    border-width: thin;
+    border-bottom-color: white;
+    border-left-color: white;
+        padding-bottom: 20;
+}
+email{
+	font-family: monospace;
+    padding-left: 20;
+}
