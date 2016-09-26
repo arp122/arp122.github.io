@@ -12,19 +12,22 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+function displayIntro() {
+    document.getElementById("details").innerHTML = "<h1>Introduction</h1><p>I am currently a graduate student pursuing my MS in Information Systems with concentration in Health Tech at Cornell Tech Cornell University, New York. Previously I did my B.Tech from VIT University, Vellore in Computer Science and Engineering.I have expertise in the field of mobile application development both iOS and Android. I also have some experience in the field of Machine Learning.I have a penchant towards working on real problems and trying to build the best and affordable solution possible in agile and fast product development environment.</p>";
+}
+</script>
 </head>
 <body>
-<img  class="profilepic" src="1b78f1c.jpg" alt="Mountain View">
-<p class="netid">NetID- as3624</p>
-<h1>Introduction</h1>
-<p>
-I am currently a graduate student pursuing my MS in Information Systems with concentration in Health Tech at Cornell Tech Cornell University, New York. Previously I did my B.Tech from VIT University, Vellore in Computer Science and Engineering.
+<img  class="profilepic" src="1b78f1c.jpg" alt="Mountain View" alt="Click on the image" onclick="displayIntro()">
 
-I have expertise in the field of mobile application development both iOS and Android. I also have some experience in the field of Machine Learning. 
+<p class="netid">NetID- as3624 ...Click on the image</p>
+<div id="details">
 
-I have a penchant towards working on real problems and trying to build the best and affordable solution possible in agile and fast product development environment.</p>
-<div class="footer">
-	<email>Email:as3624@cornell.edu<email>
 </div>
+<div class="footer">
+        <email>Email:as3624@cornell.edu<email>
+</div>
+
 </body>
 </html>
